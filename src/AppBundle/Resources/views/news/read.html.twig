@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ news.title }}{% endblock %}
+
+{% block body %}
+    <ul>
+        {% if news.hasImage %}
+            <img src="{{ news.image }}"/>
+        {% endif %}
+        <li>{{ news.category }}</li>
+        <li>{{ news.tags|join(', ') }}</li>
+        <li>{{ news.title }}</li>
+        <li>{{ news.author }}</li>
+        <li>{{ news.summary }}</li>
+        <li>{{ news.content }}</li>
+    </ul>
+    <p>
+        <a href="{{ path('news.list') }}">{{ 'News list'|trans }}</a>
+    </p>
+{% endblock %}

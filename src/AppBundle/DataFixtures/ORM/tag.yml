@@ -1,0 +1,9 @@
+AppBundle\Entity\Tag:
+  tag_0:
+    name: sport
+  tag_1:
+    name: football
+  tag_2:
+    name: olympics
+  tag_3:
+    name: bike

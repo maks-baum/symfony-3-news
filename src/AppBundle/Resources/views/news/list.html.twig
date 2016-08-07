@@ -1,0 +1,32 @@
+{% extends 'AppBundle::base.html.twig' %}
+{% block title %}{{ 'News list'|trans }}{% endblock %}
+
+{% block body %}
+    <a href="{{ path('news.create') }}">{{ 'Add news'|trans }}</a>
+    <ol>
+        {% for item in news %}
+            <li>
+                <p>
+                    <a href="{{ path('news.read', {'slug':item.slug}) }}">{{ item }}</a>
+                    <br />
+                    {{ item.author }}
+                    <br />
+                    {{ item.category }}
+                    <br />
+                    {{ item.tags|join(', ') }}
+                </p>
+                {% if item.hasImage %}
+                    <p>
+                        <img src="{{ item.image }}"/>
+                    </p>
+                {% endif %}
+                <p>
+                    {{ item.summary }}
+                </p>
+                <p>
+                    <a href="{{ path('news.update', {'id':item.id}) }}">{{ 'edit'|trans }}</a>
+                </p>
+            </li>
+        {% endfor %}
+    </ol>
+{% endblock %}

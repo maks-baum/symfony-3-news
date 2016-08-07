@@ -1,0 +1,17 @@
+AppBundle\Entity\News:
+  news_0:
+    title: Apple, Microsoft i lęk przed bronią palną
+    slug: apple-microsoft-i-lek-przed-bornia-palna
+    summary: Konkretna spluwa czy pistolecik na wodę? Apple i Microsoft w sporze o emoji broni
+    content: Nie od dziś wiadomo, że firma z Cupertino jest w awangardzie tzw. liberalnej rewolucji, która od początku tego stulecia odmienia oblicze Stanów Zjednoczonych. Wartości takie jak równość płci, sprawiedliwość rasowa, równouprawnienie homoseksualistów czy transseksualistów są dla Apple fundamentalne, trudno sobie wyobrazić, by karierę w takiej firmie zrobił jakiś rasista i seksista. Firma Tima Cooka otwarcie się zresztą chwali postępami w dziedzinie tzw. Diversity, czyli odtwarzania społecznej różnorodności etnicznej, rasowej i płciowej w strukturach organizacji. Udało się podwyższyć odsetek pracujących w Apple kobiet i Latynosów, podczas gdy inne firmy z Doliny Krzemowej, jak pisze oburzony Washington Post, nie robią w tej kwestii niczego!
+    author: '@author_0'
+    category: '@category_0'
+    addTags: ['@tag_0', '@tag_1']
+  news_1:
+    title: Android 7.0 na nowo wymyśla przyciski funkcyjne
+    slug: android-7-0-na-nowo-wymysla-przyciski-funkcyjne
+    summary: 'Kolejne wieści o Nougacie: tryb nocny i przyciski funkcyjne wymyślone na nowo'
+    content: W ostatnim czasie jasnym stało się, że launcher Google, który trafi na nowe Nexusy, wprowadzi kilka ważnych zmian w elementach nawigacyjnych. Okazuje się jednak, że nie dotyczy to tylko interfejsu graficznego – rozszerzone mają być także możliwości przycisków funkcyjnych samego systemu. Chodzi dokładniej o środkowy przycisk, który według informacji Android Police, będzie cześciowo reagował na akcje użytkownika związane z usługami Google, a będzie się to odbywało poprzez animacje. Oczywiście wszystko w barwach i stylistyce promowanej i wykorzystywanej przez Google.
+    author: '@author_1'
+    category: '@category_1'
+    addTags: ['@tag_0', '@tag_2']

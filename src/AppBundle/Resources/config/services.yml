@@ -1,0 +1,10 @@
+services:
+    pixabay_api:
+        class: AppBundle\Service\PixabayImages
+        arguments: ["%pixabay_api_key%"]
+    news_listener:
+        class: AppBundle\Service\NewsListener
+        arguments: ["@pixabay_api"]
+        tags:
+            - { name: "doctrine.orm.entity_listener", entity: AppBundle\Entity\News, event: prePersist }
+            - { name: "doctrine.orm.entity_listener", entity: AppBundle\Entity\News, event: preUpdate }

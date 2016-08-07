@@ -1,0 +1,7 @@
+AppBundle\Entity\Author:
+  author_0:
+    name: Przemek
+    email: przemek@pacura.pl
+  author_1:
+    name: Dawid
+    email: dawid@pacura.pl

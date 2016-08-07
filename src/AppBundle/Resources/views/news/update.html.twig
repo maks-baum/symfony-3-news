@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ 'news edit'|trans }}{% endblock %}
+
+{% block body %}
+
+    {% if form.vars.value.hasImage %}
+        <img src="{{ form.vars.value.image }}"/>
+    {% endif %}
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+    <p>
+        <a href="{{ path('news.list') }}">{{ 'News list'|trans }}</a>
+    </p>
+{% endblock %}

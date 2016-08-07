@@ -1,0 +1,13 @@
+AppBundle\Entity\Category:
+  category_0:
+    name: Newsy
+    slug: newsy
+  category_1:
+    name: Blog
+    slug: blog
+  category_2:
+    name: Programy
+    slug: programy
+  category_3:
+    name: Gry
+    slug: gry
